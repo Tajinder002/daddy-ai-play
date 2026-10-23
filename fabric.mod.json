@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autoplay",
+  "version": "${version}",
+  "name": "AutoPlay AI (Practice)",
+  "description": "A practice-only adaptive combat prototype. Multiplayer automation is disabled unless the server is explicitly allowlisted.",
+  "authors": ["AutoPlay AI"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.autoplay.AutoPlayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
